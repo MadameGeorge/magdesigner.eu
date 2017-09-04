@@ -1,0 +1,12 @@
+// _variables.scss
+// =================
+@import "https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins|VT323";
+
+$primary       : #000000;
+$primaryLighten  : lighten(#000000, 50%);
+$secondary     : #50E3C2;
+$white        : white;
+
+$bodyFont : 'Poppins', sans-serif;
+$headFont : 'Abril Fatface', serif;
+$decorationFont : 'VT323', monospace; 
