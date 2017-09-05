@@ -1,8 +1,25 @@
 footer {
     text-align: center;
+    
+    h4 {
+        position: relative;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    h4:after {
+        content: "";
+        background-color: $primary;
+        width: 40px;
+        height: 3px;
+        position: absolute;
+        bottom: 1px;
+        margin-left: -57px;        
+    }
 }
 
 .footer-note {
     font-family: $decorationFont;
     text-align: center;
+    margin-top: 60px;
 }

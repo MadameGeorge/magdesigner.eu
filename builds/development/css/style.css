@@ -6649,13 +6649,9 @@ html {
 body {
   font-family: "Poppins", sans-serif; }
 
-#content {
-  color: #ff5b77;
-  font-size: 1em; }
-
 .wrapper {
   margin: 0 100px 0 100px;
-  padding: 120px 50px 120px 50px; }
+  padding: 120px 0 120px 0; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Abril Fatface", serif;
@@ -6679,12 +6675,11 @@ h2 {
 h2::after {
   display: block;
   content: "";
-  color: #000000;
   background-color: #000000;
   width: 40px;
   height: 3px;
   position: absolute;
-  top: 90px; }
+  bottom: 70px; }
 
 h3 {
   font-family: "Poppins", sans-serif;
@@ -6698,6 +6693,7 @@ h4 {
   font-size: 0.9em;
   color: #000000;
   letter-spacing: 1.3px;
+  text-transform: uppercase;
   padding-bottom: 30px; }
 
 p {
@@ -6710,6 +6706,9 @@ p {
 span {
   padding-right: 30px; }
 
+li {
+  font-family: "Abril Fatface", serif; }
+
 .about-designer {
   background-color: white; }
 
@@ -6718,11 +6717,21 @@ span {
   .about-developer h3 {
     color: white; }
 
+.portfolio {
+  background-color: #F7F7F7; }
+
 .header {
   text-align: center;
   margin: 60px 0 60px 0; }
   .header h1 {
     font-size: 1.5em; }
+  .header li {
+    display: inline;
+    padding: 100px;
+    list-style: none; }
+    @media (max-width: 800px) {
+      .header li {
+        display: block; } }
 
 .banner {
   background-color: #50E3C2;
@@ -6736,29 +6745,63 @@ span {
     font-family: "Abril Fatface", serif;
     font-size: 1.5em;
     color: #000000;
+    opacity: 0.5;
+    padding-bottom: 200px; }
+  .banner li {
+    display: inline-block;
+    padding-right: 50px;
+    list-style: none;
+    font-size: 1.5em;
+    color: #000000;
     opacity: 0.5; }
+    @media (max-width: 900px) {
+      .banner li {
+        font-size: 1.2em;
+        padding-right: 30px; } }
+    @media (max-width: 768px) {
+      .banner li {
+        display: block;
+        padding-right: 30px; } }
+  .banner a {
+    color: #000000; }
+  .banner a:hover {
+    color: #000000;
+    opacity: 0.9;
+    text-decoration: none; }
 
 .contact {
-  background: #50E3C2;
-  background-position: top;
+  display: block;
+  background: url("../../builds/development/images/contact-form_photo.png") no-repeat fixed;
+  background-position: left;
   background-size: cover;
-  position: relative; }
+  position: relative;
+  min-height: 500px; }
 
-.contact_photo {
-  background: url(../../builds/development/images/contact_photo.png) no-repeat;
-  background-position: center;
-  border-radius: 100%;
+.contact-photo {
   position: absolute;
-  left: inherit;
-  right: inherit;
-  bottom: -20%; }
+  bottom: -90%;
+  margin-bottom: 60px;
+  text-align: center; }
 
 footer {
   text-align: center; }
+  footer h4 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px; }
+  footer h4:after {
+    content: "";
+    background-color: #000000;
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    bottom: 1px;
+    margin-left: -57px; }
 
 .footer-note {
   font-family: "VT323", monospace;
-  text-align: center; }
+  text-align: center;
+  margin-top: 60px; }
 
 .pixgrid img {
   max-width: 90px;

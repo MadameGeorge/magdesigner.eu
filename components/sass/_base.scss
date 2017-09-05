@@ -9,14 +9,13 @@ body {
     font-family: $bodyFont;
 }
 
-#content {
-  color: $pink;
-  font-size: 1em;
-}
-
 .wrapper {
     margin: 0 100px 0 100px;
-    padding: 120px 50px 120px 50px;
+    padding: 120px 0 120px 0;
+    
+//    @media (max-width: 700px) {
+//        padding-left: 50px;     
+//    }
 }
 
 
@@ -48,12 +47,11 @@ h2 {
 h2::after {
     display: block;
     content: "";
-    color: $primary;
     background-color: $primary;
     width: 40px;
     height: 3px;
     position: absolute;
-    top: 90px;
+    bottom: 70px;
     }
 
 h3 {
@@ -69,6 +67,7 @@ h4 {
     font-size: 0.9em;
     color: $primary;
     letter-spacing: 1.3px;
+    text-transform: uppercase;
     padding-bottom: 30px;
 }
 
@@ -82,4 +81,8 @@ p {
 
 span {
     padding-right: 30px;
+}
+
+li {
+    font-family: $headFont;
 }
