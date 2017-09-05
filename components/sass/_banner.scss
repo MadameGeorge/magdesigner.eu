@@ -4,7 +4,10 @@
     
     h2 {
         color: $white;
-        font-size: 3.5em;
+        font-size: 3.7em;
+        padding-top: 150px;
+        padding-bottom: 60px;
+        z-index: 1;
     }
     
     h2::after {
@@ -17,6 +20,7 @@
         color: $primary;
         opacity: 0.5;
         padding-bottom: 200px;
+        z-index: 1;
     }
     
     li {
@@ -24,8 +28,6 @@
         padding-right: 50px;
         list-style: none;
         font-size: 1.5em;
-        color: $primary;
-        opacity: 0.5;
         
         @media (max-width: 900px) {
             font-size: 1.2em;
@@ -40,11 +42,26 @@
     
     a {
         color: $primary;
+        opacity: 0.5;
     }
     
     a:hover {
         color: $primary;
-        opacity: 2;
+        opacity: 0.9;
         text-decoration: none;
+        transition: 0.2s ease-in;
     }
+}
+
+.banner-image {
+    position: absolute;
+    text-align: center;
+    bottom: 140px;
+    left: 20px;
+    right: 20px;
+    z-index: 0;
+}
+
+.image {
+    height: 400px;
 }

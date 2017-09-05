@@ -6720,25 +6720,25 @@ li {
 .portfolio {
   background-color: #F7F7F7; }
 
+.work {
+  width: 100%;
+  padding-bottom: 60px; }
+
 .header {
   text-align: center;
   margin: 60px 0 60px 0; }
   .header h1 {
     font-size: 1.5em; }
-  .header li {
-    display: inline;
-    padding: 100px;
-    list-style: none; }
-    @media (max-width: 800px) {
-      .header li {
-        display: block; } }
 
 .banner {
   background-color: #50E3C2;
   text-align: center; }
   .banner h2 {
     color: white;
-    font-size: 3.5em; }
+    font-size: 3.7em;
+    padding-top: 150px;
+    padding-bottom: 60px;
+    z-index: 1; }
   .banner h2::after {
     content: none; }
   .banner h3 {
@@ -6746,14 +6746,13 @@ li {
     font-size: 1.5em;
     color: #000000;
     opacity: 0.5;
-    padding-bottom: 200px; }
+    padding-bottom: 200px;
+    z-index: 1; }
   .banner li {
     display: inline-block;
     padding-right: 50px;
     list-style: none;
-    font-size: 1.5em;
-    color: #000000;
-    opacity: 0.5; }
+    font-size: 1.5em; }
     @media (max-width: 900px) {
       .banner li {
         font-size: 1.2em;
@@ -6763,11 +6762,24 @@ li {
         display: block;
         padding-right: 30px; } }
   .banner a {
-    color: #000000; }
+    color: #000000;
+    opacity: 0.5; }
   .banner a:hover {
     color: #000000;
     opacity: 0.9;
-    text-decoration: none; }
+    text-decoration: none;
+    transition: 0.2s ease-in; }
+
+.banner-image {
+  position: absolute;
+  text-align: center;
+  bottom: 140px;
+  left: 20px;
+  right: 20px;
+  z-index: 0; }
+
+.image {
+  height: 400px; }
 
 .contact {
   display: block;

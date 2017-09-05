@@ -6,14 +6,4 @@
         font-size: 1.5em;
     }
     
-    li {
-        display: inline;
-        padding: 100px;
-        list-style: none;
-        
-        @media (max-width: 800px) {
-            display: block;
-        }
-    }
-    
 }
