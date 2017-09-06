@@ -6659,6 +6659,17 @@ body {
     .wrapper {
       margin: 0 10px 0 10px; } }
 
+.btn-primary {
+  font-family: "Poppins", sans-serif;
+  background: #50E3C2;
+  border: none;
+  border-radius: 0;
+  padding: 25px;
+  box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.2); }
+  .btn-primary:hover {
+    background: #000000;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.4); }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Abril Fatface", serif;
   font-size: 3em; }
@@ -6735,12 +6746,36 @@ a:hover {
 
 .portfolio {
   background-color: #F7F7F7; }
-  .portfolio__image {
-    width: 100%;
-    padding-bottom: 60px; }
+  .portfolio__work {
+    position: relative;
+    margin-bottom: 60px; }
     @media (max-width: 500px) {
-      .portfolio__image {
-        padding-bottom: 30px; } }
+      .portfolio__work {
+        margin-bottom: 30px; } }
+    .portfolio__work:hover .overlay {
+      opacity: 0.9; }
+  .portfolio .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    margin: 0 15px 0 15px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #50E3C2; }
+  .portfolio .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); }
+  .portfolio__image {
+    width: 100%; }
 
 .header {
   text-align: center;
