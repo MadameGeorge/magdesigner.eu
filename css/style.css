@@ -702,26 +702,26 @@ pre {
     padding-right: 0;
     padding-left: 0; }
 
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .about-designer__content, .about-developer__content, .portfolio__content, .contact__content, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .portfolio__work--left, .portfolio__work--right, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
   position: relative;
   width: 100%;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px; }
   @media (min-width: 576px) {
-    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .about-designer__content, .about-developer__content, .portfolio__content, .contact__content, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .portfolio__work--left, .portfolio__work--right, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
       padding-right: 15px;
       padding-left: 15px; } }
   @media (min-width: 768px) {
-    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .about-designer__content, .about-developer__content, .portfolio__content, .contact__content, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .portfolio__work--left, .portfolio__work--right, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
       padding-right: 15px;
       padding-left: 15px; } }
   @media (min-width: 992px) {
-    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .about-designer__content, .about-developer__content, .portfolio__content, .contact__content, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .portfolio__work--left, .portfolio__work--right, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
       padding-right: 15px;
       padding-left: 15px; } }
   @media (min-width: 1200px) {
-    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .about-designer__content, .about-developer__content, .portfolio__content, .contact__content, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .portfolio__work--left, .portfolio__work--right, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -947,7 +947,7 @@ pre {
     flex: 0 0 91.66667%;
     max-width: 91.66667%; }
 
-  .col-sm-12 {
+  .col-sm-12, .about-designer__content, .about-developer__content, .portfolio__content, .contact__content {
     flex: 0 0 100%;
     max-width: 100%; }
 
@@ -990,7 +990,7 @@ pre {
   .pull-sm-12 {
     right: 100%; }
 
-  .push-sm-0 {
+  .push-sm-0, .about-designer__content, .about-developer__content, .portfolio__content, .contact__content {
     left: auto; }
 
   .push-sm-1 {
@@ -1110,7 +1110,7 @@ pre {
     flex: 0 0 75%;
     max-width: 75%; }
 
-  .col-md-10 {
+  .col-md-10, .about-designer__content, .about-developer__content, .portfolio__content, .portfolio__work--left, .portfolio__work--right, .contact__content {
     flex: 0 0 83.33333%;
     max-width: 83.33333%; }
 
@@ -1164,7 +1164,7 @@ pre {
   .push-md-0 {
     left: auto; }
 
-  .push-md-1 {
+  .push-md-1, .about-designer__content, .about-developer__content, .portfolio__content, .contact__content {
     left: 8.33333%; }
 
   .push-md-2 {
@@ -1203,7 +1203,7 @@ pre {
   .offset-md-0 {
     margin-left: 0%; }
 
-  .offset-md-1 {
+  .offset-md-1, .portfolio__work--left, .portfolio__work--right {
     margin-left: 8.33333%; }
 
   .offset-md-2 {
@@ -1432,7 +1432,7 @@ pre {
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
 
-  .col-xl-5 {
+  .col-xl-5, .portfolio__work--left, .portfolio__work--right {
     flex: 0 0 41.66667%;
     max-width: 41.66667%; }
 
@@ -1444,7 +1444,7 @@ pre {
     flex: 0 0 58.33333%;
     max-width: 58.33333%; }
 
-  .col-xl-8 {
+  .col-xl-8, .about-designer__content, .about-developer__content, .portfolio__content, .contact__content {
     flex: 0 0 66.66667%;
     max-width: 66.66667%; }
 
@@ -1542,10 +1542,10 @@ pre {
   .push-xl-12 {
     left: 100%; }
 
-  .offset-xl-0 {
+  .offset-xl-0, .portfolio__work--right {
     margin-left: 0%; }
 
-  .offset-xl-1 {
+  .offset-xl-1, .portfolio__work--left {
     margin-left: 8.33333%; }
 
   .offset-xl-2 {
@@ -6652,6 +6652,12 @@ body {
 .wrapper {
   margin: 0 100px 0 100px;
   padding: 120px 0 120px 0; }
+  @media (max-width: 800px) {
+    .wrapper {
+      margin: 0 60px 0 60px; } }
+  @media (max-width: 500px) {
+    .wrapper {
+      margin: 0 10px 0 10px; } }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Abril Fatface", serif;
@@ -6709,6 +6715,16 @@ span {
 li {
   font-family: "Abril Fatface", serif; }
 
+a {
+  color: #000000;
+  opacity: 0.5; }
+
+a:hover {
+  color: #000000;
+  opacity: 0.9;
+  text-decoration: none;
+  transition: 0.2s ease-in; }
+
 .about-designer {
   background-color: white; }
 
@@ -6719,10 +6735,12 @@ li {
 
 .portfolio {
   background-color: #F7F7F7; }
-
-.work {
-  width: 100%;
-  padding-bottom: 60px; }
+  .portfolio__image {
+    width: 100%;
+    padding-bottom: 60px; }
+    @media (max-width: 500px) {
+      .portfolio__image {
+        padding-bottom: 30px; } }
 
 .header {
   text-align: center;
@@ -6732,13 +6750,18 @@ li {
 
 .banner {
   background-color: #50E3C2;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
   .banner h2 {
     color: white;
     font-size: 3.7em;
     padding-top: 150px;
     padding-bottom: 60px;
     z-index: 1; }
+    @media (max-width: 500px) {
+      .banner h2 {
+        padding-top: 90px;
+        font-size: 3.2em; } }
   .banner h2::after {
     content: none; }
   .banner h3 {
@@ -6748,6 +6771,9 @@ li {
     opacity: 0.5;
     padding-bottom: 200px;
     z-index: 1; }
+    @media (max-width: 500px) {
+      .banner h3 {
+        padding-bottom: 140px; } }
   .banner li {
     display: inline-block;
     padding-right: 50px;
@@ -6759,8 +6785,10 @@ li {
         padding-right: 30px; } }
     @media (max-width: 768px) {
       .banner li {
+        font-size: 1.5em;
         display: block;
-        padding-right: 30px; } }
+        padding-right: 30px;
+        margin-bottom: 30px; } }
   .banner a {
     color: #000000;
     opacity: 0.5; }
@@ -6773,13 +6801,19 @@ li {
 .banner-image {
   position: absolute;
   text-align: center;
-  bottom: 140px;
+  top: 140px;
   left: 20px;
   right: 20px;
   z-index: 0; }
+  @media (max-width: 500px) {
+    .banner-image {
+      top: 100px; } }
 
 .image {
   height: 400px; }
+  @media (max-width: 400px) {
+    .image {
+      height: 300px; } }
 
 .contact {
   display: block;
@@ -6792,8 +6826,8 @@ li {
 .contact-photo {
   position: absolute;
   bottom: -90%;
-  margin-bottom: 60px;
-  text-align: center; }
+  text-align: center;
+  left: 0; }
 
 footer {
   text-align: center; }

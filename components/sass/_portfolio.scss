@@ -1,8 +1,36 @@
 .portfolio {
     background-color: $light;
+    
+    &__content {
+        @extend .push-md-1;
+        @extend .col-xl-8; 
+        @extend .col-md-10;
+        @extend .push-sm-0;
+        @extend .col-sm-12;
+    }
+    
+    &__work {
+        &--left {
+        @extend .offset-xl-1;
+        @extend .col-xl-5;
+        @extend .offset-md-1;    
+        @extend .col-md-10;
+        }
+        
+        &--right {
+        @extend .offset-xl-0;
+        @extend .col-xl-5;
+        @extend .offset-md-1;
+        @extend .col-md-10;
+        }               
+    }
+    
+    &__image {
+        width: 100%;
+        padding-bottom: 60px;
+        
+        @media (max-width: 500px) {
+            padding-bottom: 30px;
+        }
+    }
 }
-
-.work {
-    width: 100%;
-    padding-bottom: 60px;
-} 

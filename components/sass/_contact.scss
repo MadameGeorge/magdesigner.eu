@@ -5,11 +5,19 @@
     background-size: cover;
     position: relative;
     min-height: 500px;
+    
+    &__content {
+        @extend .push-md-1;
+        @extend .col-xl-8; 
+        @extend .col-md-10;
+        @extend .push-sm-0;
+        @extend .col-sm-12;
+    }
 }
 
 .contact-photo {
     position: absolute;
     bottom: -90%;
-    margin-bottom: 60px;
     text-align: center;
+    left: 0;
 }

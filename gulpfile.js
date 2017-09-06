@@ -13,7 +13,7 @@ var jsSources = [
     'components/scripts/pixgrid.js',
     'components/scripts/tagline.js',
     'components/scripts/template.js',
-    'node_modules/bootstrap-v4-dev/js/dist/dropdown.js'
+    'node_modules/bootstrap-v4-dev/js/dist/dropdown.js',
 ];
 
 var sassSources = ['components/sass/style.scss']

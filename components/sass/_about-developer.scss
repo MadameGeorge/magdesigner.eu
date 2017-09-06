@@ -1,6 +1,14 @@
 .about-developer {
     background-color: $secondary;
     
+    &__content {
+        @extend .col-xl-8; 
+        @extend .push-md-1;
+        @extend .col-md-10;
+        @extend .push-sm-0;
+        @extend .col-sm-12;
+    }
+    
     h3 {
         color: $white;
     }
