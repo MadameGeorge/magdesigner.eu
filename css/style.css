@@ -6824,14 +6824,6 @@ a:hover {
         display: block;
         padding-right: 30px;
         margin-bottom: 30px; } }
-  .banner a {
-    color: #000000;
-    opacity: 0.5; }
-  .banner a:hover {
-    color: #000000;
-    opacity: 0.9;
-    text-decoration: none;
-    transition: 0.2s ease-in; }
 
 .banner-image {
   position: absolute;

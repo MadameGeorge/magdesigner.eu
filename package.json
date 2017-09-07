@@ -1,5 +1,5 @@
 {
-  "name": "powalisz.pl",
+  "name": "magdesigner.eu",
   "version": "0.0.1",
   "description": "Magdalena Powalisz Graphic Designer Portfolio Website",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MadameGeorge/powalisz.pl.git"
+    "url": "https://github.com/MadameGeorge/magdesigner.eu.git"
   },
   "author": "Magdalena Powalisz",
   "license": "ISC",
