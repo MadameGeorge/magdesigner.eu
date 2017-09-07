@@ -32,25 +32,6 @@
             padding-bottom: 140px;
         }
     }
-    
-    li {
-        display: inline-block;
-        padding-right: 50px;
-        list-style: none;
-        font-size: 1.5em;
-        
-        @media (max-width: 900px) {
-            font-size: 1.2em;
-            padding-right: 30px;
-        }
-        
-        @media (max-width: 768px) {
-            font-size: 1.5em;
-            display: block;
-            padding-right: 30px;
-            margin-bottom: 30px;
-        }
-    }
 }
 
 .banner-image {

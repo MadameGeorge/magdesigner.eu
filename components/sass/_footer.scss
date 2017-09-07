@@ -1,20 +1,23 @@
 footer {
     text-align: center;
+    padding-bottom: 80px;
     
     h4 {
         position: relative;
-        text-align: center;
+        text-align: inherit;
         margin-bottom: 30px;
     }
     
-    h4:after {
+    h4::after {
         content: "";
+        position: absolute;
         background-color: $primary;
+        text-align: inherit;
         width: 40px;
         height: 3px;
-        position: absolute;
-        bottom: 1px;
-        margin-left: -57px;        
+        bottom: 3px;
+        left: 50%;
+        margin-left: -20px;
     }
 }
 

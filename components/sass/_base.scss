@@ -28,6 +28,7 @@ body {
     border: none;
     border-radius: 0;
     padding: 25px;
+    margin-top: 100px;
     box-shadow: 0px 20px 70px 0px rgba(0,0,0,0.2);
     
     &:hover {
@@ -99,8 +100,28 @@ span {
     padding-right: 30px;
 }
 
+ul {
+    padding-left: 0;
+}
+
 li {
     font-family: $headFont;
+    display: inline-block;
+    padding-right: 50px;
+    list-style: none;
+    font-size: 1.5em;
+        
+    @media (max-width: 900px) {
+        font-size: 1.2em;
+        padding-right: 30px;
+    }
+        
+    @media (max-width: 768px) {
+        font-size: 1.5em;
+        display: block;
+        padding-right: 30px;
+        margin-bottom: 30px;
+    }
 }
 
 a {

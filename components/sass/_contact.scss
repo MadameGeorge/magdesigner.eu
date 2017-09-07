@@ -1,23 +1,10 @@
 .contact {
-    display: block;
-    background: url('../../builds/development/images/contact-form_photo.png') no-repeat fixed;
-    background-position: left;
-    background-size: cover;
     position: relative;
-    min-height: 500px;
-    
-    &__content {
-        @extend .push-md-1;
-        @extend .col-xl-8; 
-        @extend .col-md-10;
-        @extend .push-sm-0;
-        @extend .col-sm-12;
-    }
-}
+    min-height: 200px;
 
-.contact-photo {
+    &__photo {
     position: absolute;
-    bottom: -90%;
-    text-align: center;
+    top: -50px;
     left: 0;
+    }
 }

@@ -19,20 +19,24 @@
         
         &--left {
         @extend .offset-xl-1;
-        @extend .col-xl-5;
+        @extend .col-xl-10;
         @extend .offset-md-1;    
         @extend .col-md-10;
         }
         
         &--right {
-        @extend .offset-xl-0;
-        @extend .col-xl-5;
+        @extend .offset-xl-1;
+        @extend .col-xl-10;
         @extend .offset-md-1;
         @extend .col-md-10;
         }               
         
         &:hover .overlay {
             opacity: 0.9;
+        }
+        
+        &:last-child {
+            margin-bottom: 0;
         }
     }
     
@@ -62,5 +66,47 @@
     
     &__image {
         width: 100%;
+    }
+    
+    li {
+        margin-left: 0;
+        text-align: left;
+    }
+    
+    a:hover {
+        color: $secondary;
+    }
+    
+    &__nav {
+        @extend .offset-1;
+        @extend .col-12;
+    }
+    
+    &__more {
+        background: $secondary;
+        
+        h4 {
+        position: relative;
+        text-align: center;
+        margin-bottom: 30px;
+        }
+    
+        h4:after {
+        content: "";
+        position: absolute;
+        background-color: $primary;
+        text-align: inherit;
+        width: 40px;
+        height: 3px;
+        bottom: 3px;
+        left: 50%;
+        margin-left: -20px;
+        }
+    }
+    
+    &__links {
+        text-align: center;
+        
+        @extend .offset-1;
     }
 }
