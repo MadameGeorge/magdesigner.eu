@@ -19,6 +19,18 @@ footer {
         left: 50%;
         margin-left: -20px;
     }
+    
+    a {
+        color: $primary;
+        opacity: 0.5;    
+    }
+    
+    a:hover {
+        color: $primary;
+        opacity: 0.9;
+        text-decoration: none;
+        transition: 0.2s ease-in;  
+    }
 }
 
 .footer-note {

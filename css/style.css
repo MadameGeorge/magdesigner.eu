@@ -6745,8 +6745,7 @@ li {
       margin-bottom: 30px; } }
 
 a {
-  color: #000000;
-  opacity: 0.5; }
+  color: #000000; }
 
 a:hover {
   color: #000000;
@@ -6794,6 +6793,8 @@ a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); }
+    .portfolio .text a:hover {
+      color: #000000; }
   .portfolio__image {
     width: 100%; }
   .portfolio li {
@@ -6802,7 +6803,8 @@ a:hover {
   .portfolio a:hover {
     color: #50E3C2; }
   .portfolio__more {
-    background: #50E3C2; }
+    background: #50E3C2;
+    text-align: center; }
     .portfolio__more h4 {
       position: relative;
       text-align: center;
@@ -6817,6 +6819,14 @@ a:hover {
       bottom: 3px;
       left: 50%;
       margin-left: -20px; }
+    .portfolio__more a {
+      color: #000000;
+      opacity: 0.5; }
+    .portfolio__more a:hover {
+      color: #000000;
+      opacity: 0.9;
+      text-decoration: none;
+      transition: 0.2s ease-in; }
   .portfolio__links {
     text-align: center; }
 
@@ -6852,6 +6862,14 @@ a:hover {
     @media (max-width: 500px) {
       .banner h3 {
         padding-bottom: 140px; } }
+  .banner a {
+    color: #000000;
+    opacity: 0.5; }
+  .banner a:hover {
+    color: #000000;
+    opacity: 0.9;
+    text-decoration: none;
+    transition: 0.2s ease-in; }
 
 .banner-image {
   position: absolute;
@@ -6895,6 +6913,14 @@ footer {
     bottom: 3px;
     left: 50%;
     margin-left: -20px; }
+  footer a {
+    color: #000000;
+    opacity: 0.5; }
+  footer a:hover {
+    color: #000000;
+    opacity: 0.9;
+    text-decoration: none;
+    transition: 0.2s ease-in; }
 
 .footer-note {
   font-family: "VT323", monospace;
