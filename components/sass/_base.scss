@@ -91,9 +91,9 @@ h4 {
 p {
     font-family: $bodyFont;
     font-size: 1em;
+    line-height: 1.6em;
     color: $primary;
     opacity: 0.5;
-    line-height: 1.5em;
 }
 
 span {
@@ -110,6 +110,10 @@ li {
     padding-right: 50px;
     list-style: none;
     font-size: 1.5em;
+    
+    &:last-child {
+        padding-right: 0;
+    }
         
     @media (max-width: 900px) {
         font-size: 1.2em;
@@ -119,10 +123,19 @@ li {
     @media (max-width: 768px) {
         font-size: 1.5em;
         display: block;
-        padding-right: 30px;
+        padding-right: 0;
         margin-bottom: 30px;
     }
 }
 
-
+a {
+    color: $primary;
+    opacity: 0.5;    
+    
+    &:hover {
+        color: $primary;
+        opacity: 0.9;
+        text-decoration: none;
+        transition: 0.2s ease-in;  
+        }
 }

@@ -40,6 +40,38 @@
         }
     }
     
+    &__more {
+        background: $secondary;
+        text-align: center;
+        
+        h4 {
+        position: relative;
+        text-align: center;
+        margin-bottom: 30px;
+        }
+    
+        h4:after {
+        content: "";
+        position: absolute;
+        background-color: $primary;
+        text-align: inherit;
+        width: 40px;
+        height: 3px;
+        bottom: 3px;
+        left: 50%;
+        margin-left: -20px;
+        }
+    }
+    
+    &__nav {
+        @extend .offset-1;
+        @extend .col-12;
+    }
+    
+    &__links {
+        text-align: center;
+    }
+    
     .overlay {
       position: absolute;
       top: 0;
@@ -77,52 +109,7 @@
         text-align: left;
     }
     
-    a:hover {
-        color: $secondary;
-    }
-    
-    &__nav {
-        @extend .offset-1;
-        @extend .col-12;
-    }
-    
-    &__more {
-        background: $secondary;
-        text-align: center;
-        h4 {
-        position: relative;
-        text-align: center;
-        margin-bottom: 30px;
-        }
-    
-        h4:after {
-        content: "";
-        position: absolute;
-        background-color: $primary;
-        text-align: inherit;
-        width: 40px;
-        height: 3px;
-        bottom: 3px;
-        left: 50%;
-        margin-left: -20px;
-        }
-        
-        a {
-        color: $primary;
-        opacity: 0.5;    
-        }
-    
-        a:hover {
-        color: $primary;
-        opacity: 0.9;
-        text-decoration: none;
-        transition: 0.2s ease-in;  
-        }
-    }
-    
-    &__links {
-        text-align: center;
-        
-        @extend .offset-1;
+    a {
+        opacity: 1;
     }
 }

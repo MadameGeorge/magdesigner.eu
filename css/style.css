@@ -860,7 +860,7 @@ pre {
 .push-12 {
   left: 100%; }
 
-.offset-1, .portfolio__nav, .portfolio__links {
+.offset-1, .portfolio__nav {
   margin-left: 8.33333%; }
 
 .offset-2 {
@@ -6717,9 +6717,9 @@ h4 {
 p {
   font-family: "Poppins", sans-serif;
   font-size: 1em;
+  line-height: 1.6em;
   color: #000000;
-  opacity: 0.5;
-  line-height: 1.5em; }
+  opacity: 0.5; }
 
 span {
   padding-right: 30px; }
@@ -6733,6 +6733,8 @@ li {
   padding-right: 50px;
   list-style: none;
   font-size: 1.5em; }
+  li:last-child {
+    padding-right: 0; }
   @media (max-width: 900px) {
     li {
       font-size: 1.2em;
@@ -6741,17 +6743,17 @@ li {
     li {
       font-size: 1.5em;
       display: block;
-      padding-right: 30px;
+      padding-right: 0;
       margin-bottom: 30px; } }
 
 a {
-  color: #000000; }
-
-a:hover {
   color: #000000;
-  opacity: 0.9;
-  text-decoration: none;
-  transition: 0.2s ease-in; }
+  opacity: 0.5; }
+  a:hover {
+    color: #000000;
+    opacity: 0.9;
+    text-decoration: none;
+    transition: 0.2s ease-in; }
 
 .about-designer {
   background-color: white; }
@@ -6773,6 +6775,25 @@ a:hover {
       opacity: 0.9; }
     .portfolio__work:last-child {
       margin-bottom: 0; }
+  .portfolio__more {
+    background: #50E3C2;
+    text-align: center; }
+    .portfolio__more h4 {
+      position: relative;
+      text-align: center;
+      margin-bottom: 30px; }
+    .portfolio__more h4:after {
+      content: "";
+      position: absolute;
+      background-color: #000000;
+      text-align: inherit;
+      width: 40px;
+      height: 3px;
+      bottom: 3px;
+      left: 50%;
+      margin-left: -20px; }
+  .portfolio__links {
+    text-align: center; }
   .portfolio .overlay {
     position: absolute;
     top: 0;
@@ -6800,35 +6821,8 @@ a:hover {
   .portfolio li {
     margin-left: 0;
     text-align: left; }
-  .portfolio a:hover {
-    color: #50E3C2; }
-  .portfolio__more {
-    background: #50E3C2;
-    text-align: center; }
-    .portfolio__more h4 {
-      position: relative;
-      text-align: center;
-      margin-bottom: 30px; }
-    .portfolio__more h4:after {
-      content: "";
-      position: absolute;
-      background-color: #000000;
-      text-align: inherit;
-      width: 40px;
-      height: 3px;
-      bottom: 3px;
-      left: 50%;
-      margin-left: -20px; }
-    .portfolio__more a {
-      color: #000000;
-      opacity: 0.5; }
-    .portfolio__more a:hover {
-      color: #000000;
-      opacity: 0.9;
-      text-decoration: none;
-      transition: 0.2s ease-in; }
-  .portfolio__links {
-    text-align: center; }
+  .portfolio a {
+    opacity: 1; }
 
 .header {
   text-align: center;
@@ -6913,30 +6907,11 @@ footer {
     bottom: 3px;
     left: 50%;
     margin-left: -20px; }
-  footer a {
-    color: #000000;
-    opacity: 0.5; }
-  footer a:hover {
-    color: #000000;
-    opacity: 0.9;
-    text-decoration: none;
-    transition: 0.2s ease-in; }
 
 .footer-note {
   font-family: "VT323", monospace;
   text-align: center;
   margin-top: 60px; }
-
-.pixgrid img {
-  max-width: 90px;
-  display: block;
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
-  border-radius: 15px;
-  padding: 0 5px 5px 0;
-  cursor: url(../images/misc/magnifying_glass.png), auto; }
-.pixgrid .preview img {
-  padding: 0; }
 
 .rclick .item {
   display: block;
