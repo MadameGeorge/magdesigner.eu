@@ -702,26 +702,26 @@ pre {
     padding-right: 0;
     padding-left: 0; }
 
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .portfolio__nav, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .about-designer__content, .about-developer__content, .portfolio__content, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .portfolio__work--left, .portfolio__work--right, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .portfolio__nav, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .about-designer__content, .about-developer__content, .portfolio__content, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .portfolio__work--left, .portfolio__work--right, .portfolio__work--main, .col-md-11, .col-md-12, .portfolio__work--specific, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
   position: relative;
   width: 100%;
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px; }
   @media (min-width: 576px) {
-    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .portfolio__nav, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .about-designer__content, .about-developer__content, .portfolio__content, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .portfolio__work--left, .portfolio__work--right, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .portfolio__nav, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .about-designer__content, .about-developer__content, .portfolio__content, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .portfolio__work--left, .portfolio__work--right, .portfolio__work--main, .col-md-11, .col-md-12, .portfolio__work--specific, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
       padding-right: 15px;
       padding-left: 15px; } }
   @media (min-width: 768px) {
-    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .portfolio__nav, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .about-designer__content, .about-developer__content, .portfolio__content, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .portfolio__work--left, .portfolio__work--right, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .portfolio__nav, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .about-designer__content, .about-developer__content, .portfolio__content, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .portfolio__work--left, .portfolio__work--right, .portfolio__work--main, .col-md-11, .col-md-12, .portfolio__work--specific, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
       padding-right: 15px;
       padding-left: 15px; } }
   @media (min-width: 992px) {
-    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .portfolio__nav, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .about-designer__content, .about-developer__content, .portfolio__content, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .portfolio__work--left, .portfolio__work--right, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .portfolio__nav, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .about-designer__content, .about-developer__content, .portfolio__content, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .portfolio__work--left, .portfolio__work--right, .portfolio__work--main, .col-md-11, .col-md-12, .portfolio__work--specific, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
       padding-right: 15px;
       padding-left: 15px; } }
   @media (min-width: 1200px) {
-    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .portfolio__nav, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .about-designer__content, .about-developer__content, .portfolio__content, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .portfolio__work--left, .portfolio__work--right, .col-md-11, .col-md-12, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .portfolio__nav, .col, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .about-designer__content, .about-developer__content, .portfolio__content, .col-sm, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .portfolio__work--left, .portfolio__work--right, .portfolio__work--main, .col-md-11, .col-md-12, .portfolio__work--specific, .col-md, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl {
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -1110,7 +1110,7 @@ pre {
     flex: 0 0 75%;
     max-width: 75%; }
 
-  .col-md-10, .about-designer__content, .about-developer__content, .portfolio__content, .portfolio__work--left, .portfolio__work--right {
+  .col-md-10, .about-designer__content, .about-developer__content, .portfolio__content, .portfolio__work--left, .portfolio__work--right, .portfolio__work--main {
     flex: 0 0 83.33333%;
     max-width: 83.33333%; }
 
@@ -1118,7 +1118,7 @@ pre {
     flex: 0 0 91.66667%;
     max-width: 91.66667%; }
 
-  .col-md-12 {
+  .col-md-12, .portfolio__work--specific {
     flex: 0 0 100%;
     max-width: 100%; }
 
@@ -1203,7 +1203,7 @@ pre {
   .offset-md-0 {
     margin-left: 0%; }
 
-  .offset-md-1, .portfolio__work--left, .portfolio__work--right {
+  .offset-md-1, .portfolio__work--left, .portfolio__work--right, .portfolio__work--main {
     margin-left: 8.33333%; }
 
   .offset-md-2 {
@@ -1257,7 +1257,7 @@ pre {
     flex: 0 0 25%;
     max-width: 25%; }
 
-  .col-lg-4 {
+  .col-lg-4, .portfolio__work--main {
     flex: 0 0 33.33333%;
     max-width: 33.33333%; }
 
@@ -1289,7 +1289,7 @@ pre {
     flex: 0 0 91.66667%;
     max-width: 91.66667%; }
 
-  .col-lg-12 {
+  .col-lg-12, .portfolio__work--specific {
     flex: 0 0 100%;
     max-width: 100%; }
 
@@ -1371,7 +1371,7 @@ pre {
   .push-lg-12 {
     left: 100%; }
 
-  .offset-lg-0 {
+  .offset-lg-0, .portfolio__work--main {
     margin-left: 0%; }
 
   .offset-lg-1 {
@@ -1460,7 +1460,7 @@ pre {
     flex: 0 0 91.66667%;
     max-width: 91.66667%; }
 
-  .col-xl-12 {
+  .col-xl-12, .portfolio__work--specific {
     flex: 0 0 100%;
     max-width: 100%; }
 
@@ -6710,7 +6710,7 @@ h4 {
   font-family: "VT323", monospace;
   font-size: 0.9em;
   color: #000000;
-  letter-spacing: 1.3px;
+  letter-spacing: 1.6px;
   text-transform: uppercase;
   padding-bottom: 30px; }
 
@@ -6771,10 +6771,15 @@ a {
     @media (max-width: 500px) {
       .portfolio__work {
         margin-bottom: 30px; } }
+    @media (max-width: 900px) {
+      .portfolio__work--specific {
+        margin-bottom: 30px; } }
     .portfolio__work:hover .overlay {
       opacity: 0.9; }
     .portfolio__work:last-child {
       margin-bottom: 0; }
+    .portfolio__work--main:last-child {
+      margin-bottom: 60px; }
   .portfolio__more {
     background: #50E3C2;
     text-align: center; }
@@ -6825,15 +6830,51 @@ a {
     opacity: 1; }
 
 .header {
-  text-align: center;
-  margin: 60px 0 60px 0; }
-  .header h1 {
-    font-size: 1.5em; }
+  margin: 60px 0 60px 0;
+  position: relative; }
+  .header a {
+    opacity: 1;
+    color: #000000; }
+  .header a:hover {
+    opacity: 1;
+    color: #50E3C2; }
+  .header__title {
+    text-align: center;
+    font-size: 1.4em;
+    letter-spacing: 0.4px; }
+  .header__back {
+    position: absolute;
+    margin-left: 120px; }
+    @media (max-width: 800px) {
+      .header__back {
+        margin-left: 60px; } }
+    @media (max-width: 500px) {
+      .header__back {
+        margin-left: 10px; } }
+  .header__back-text {
+    font-family: "VT323", monospace;
+    font-style: normal;
+    margin-left: 10px; }
 
 .banner {
   background-color: #50E3C2;
   text-align: center;
   position: relative; }
+  .banner__content {
+    position: absolute;
+    text-align: center;
+    top: 140px;
+    left: 20px;
+    right: 20px;
+    z-index: 0; }
+    @media (max-width: 500px) {
+      .banner__content {
+        top: 100px; } }
+  .banner__image {
+    height: 400px; }
+    @media (max-width: 400px) {
+      .banner__image {
+        height: 300px; } }
   .banner h2 {
     color: white;
     font-size: 3.7em;
@@ -6865,30 +6906,15 @@ a {
     text-decoration: none;
     transition: 0.2s ease-in; }
 
-.banner-image {
-  position: absolute;
-  text-align: center;
-  top: 140px;
-  left: 20px;
-  right: 20px;
-  z-index: 0; }
-  @media (max-width: 500px) {
-    .banner-image {
-      top: 100px; } }
-
-.image {
-  height: 400px; }
-  @media (max-width: 400px) {
-    .image {
-      height: 300px; } }
-
 .contact {
   position: relative;
   min-height: 200px; }
   .contact__photo {
     position: absolute;
-    top: -50px;
-    left: 0; }
+    top: -40px;
+    width: 180px;
+    left: 50%;
+    margin-left: -90px; }
 
 footer {
   text-align: center;

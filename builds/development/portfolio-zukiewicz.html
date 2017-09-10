@@ -17,12 +17,20 @@
         <script
         src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="crossorigin="anonymous"></script>
+        <script src="https://use.fontawesome.com/e57a52dbd9.js"></script>
     </head>
     <body>
 
         <header>
             <div class="header">
-                <h1>Magdalena Powalisz</h1>
+                <div class="header__back">
+                    <a href="#" onClick="history.go(-1)">               
+                        <i class="fa fa-long-arrow-left" aria-hidden="true"><span class="header__back-text">go back</span></i>
+                    </a>
+                </div>               
+                <a href="index.html">
+                    <h1 class="header__title">Magdalena Powalisz</h1>
+                </a>
             </div>
         </header>              
         <section id="portfolio" class="portfolio wrapper">
@@ -38,22 +46,22 @@
                     </div>
                </div>
                 <div class="row">
-                    <div class="portfolio__work portfolio__work--left" data-aos="fade-up">
+                    <div class="portfolio__work portfolio__work--specific" data-aos="fade-up">
                         <img src="images/print/zukiewicz/polska_politologia_Book_okladka-min.jpg" class="portfolio__image">
                     </div>
-                    <div class="portfolio__work portfolio__work--right" data-aos="fade-up">
+                    <div class="portfolio__work portfolio__work--specific" data-aos="fade-up">
                         <img src="images/print/zukiewicz/polska_politologia_Book_wnetrze-min.jpg" class="portfolio__image">
                     </div>
-                    <div class="portfolio__work portfolio__work--left" data-aos="fade-up">
+                    <div class="portfolio__work portfolio__work--specific" data-aos="fade-up">
                     <img src="images/print/zukiewicz/Przywodztwo_labilne_Book_okladka-min.jpg" class="portfolio__image">              
                     </div>
-                    <div class="portfolio__work portfolio__work--right" data-aos="fade-up">
+                    <div class="portfolio__work portfolio__work--specific" data-aos="fade-up">
                         <img src="images/print/zukiewicz/Przywodztwo_labilne_Book_wnetrze-min.jpg" class="portfolio__image">
                     </div>
-                    <div class="portfolio__work portfolio__work--left" data-aos="fade-up">
+                    <div class="portfolio__work portfolio__work--specific" data-aos="fade-up">
                         <img src="images/print/zukiewicz/Przywodztwo_prezydenckie_Book_okladka-min.jpg" class="portfolio__image">
                     </div>
-                    <div class="portfolio__work portfolio__work--right" data-aos="fade-up">
+                    <div class="portfolio__work portfolio__work--specific" data-aos="fade-up">
                         <img src="images/print/zukiewicz/Przywodztwo_prezydenckie_Book_wnetrze-min.jpg" class="portfolio__image">
                     </div>                
                 </div>
@@ -77,7 +85,7 @@
        
        
         <footer class="wrapper">
-            <h4 class="title">She will appreciate a feedback</h4>
+            <h4 class="title">She will appreciate your feedback</h4>
             <a href="phoneto:0048880559822">0048 880 559 822</a><br>
 
             <a href="mailto:contact@magdesigner.eu">contact@magdesigner.eu</a>

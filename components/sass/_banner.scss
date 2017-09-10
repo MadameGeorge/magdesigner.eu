@@ -3,6 +3,27 @@
     text-align: center;
     position: relative;
     
+    &__content {
+        position: absolute;
+        text-align: center;
+        top: 140px;
+        left: 20px;
+        right: 20px;
+        z-index: 0;
+    
+        @media (max-width: 500px) {
+            top: 100px;
+        }
+    }
+    
+    &__image {
+        height: 400px;
+
+        @media (max-width: 400px) {
+            height: 300px;
+        }
+    }
+    
     h2 {
         color: $white;
         font-size: 3.7em;
@@ -43,26 +64,5 @@
         opacity: 0.9;
         text-decoration: none;
         transition: 0.2s ease-in;  
-    }
-}
-
-.banner-image {
-    position: absolute;
-    text-align: center;
-    top: 140px;
-    left: 20px;
-    right: 20px;
-    z-index: 0;
-    
-    @media (max-width: 500px) {
-        top: 100px;
-    }
-}
-
-.image {
-    height: 400px;
-    
-    @media (max-width: 400px) {
-        height: 300px;
     }
 }

@@ -1,9 +1,39 @@
 .header {
-    text-align: center;
     margin: 60px 0 60px 0;
+    position: relative;
     
-    h1 {
-        font-size: 1.5em;
+    a {
+        opacity: 1;
+        color: $primary;
     }
     
+    a:hover {
+        opacity: 1;
+        color: $secondary;
+    }
+    
+    &__title {
+        text-align: center;
+        font-size: 1.4em;
+        letter-spacing: 0.4px;
+    }
+    
+    &__back {
+        position: absolute;
+        margin-left: 120px;
+        
+        @media (max-width: 800px) { 
+            margin-left: 60px;
+        }
+
+        @media (max-width: 500px) { 
+            margin-left: 10px;
+        }
+    }
+    
+    &__back-text {
+        font-family: $decorationFont;
+        font-style: normal;
+        margin-left: 10px;
+    }
 }

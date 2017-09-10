@@ -29,7 +29,17 @@
         @extend .col-xl-10;
         @extend .offset-md-1;
         @extend .col-md-10;
-        }               
+        }   
+        
+        &--specific {
+        @extend .col-xl-12;
+        @extend .col-lg-12;
+        @extend .col-md-12; 
+            
+            @media (max-width: 900px) {
+            margin-bottom: 30px;
+        }
+        }
         
         &:hover .overlay {
             opacity: 0.9;
@@ -37,6 +47,17 @@
         
         &:last-child {
             margin-bottom: 0;
+        }
+        
+        &--main {
+        @extend .offset-lg-0;
+        @extend .col-lg-4;
+        @extend .offset-md-1;
+        @extend .col-md-10;
+            
+            &:last-child {
+            margin-bottom: 60px;
+            }
         }
     }
     
