@@ -20,7 +20,7 @@
     
     &__back {
         position: absolute;
-        margin-left: 120px;
+        margin-left: 105px;
         
         @media (max-width: 800px) { 
             margin-left: 60px;
@@ -35,5 +35,9 @@
         font-family: $decorationFont;
         font-style: normal;
         margin-left: 10px;
+        
+        @media (max-width: 600px) {
+            display: none;
+        }
     }
 }

@@ -6844,7 +6844,7 @@ a {
     letter-spacing: 0.4px; }
   .header__back {
     position: absolute;
-    margin-left: 120px; }
+    margin-left: 105px; }
     @media (max-width: 800px) {
       .header__back {
         margin-left: 60px; } }
@@ -6855,6 +6855,9 @@ a {
     font-family: "VT323", monospace;
     font-style: normal;
     margin-left: 10px; }
+    @media (max-width: 600px) {
+      .header__back-text {
+        display: none; } }
 
 .banner {
   background-color: #50E3C2;
