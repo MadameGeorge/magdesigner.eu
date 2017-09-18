@@ -138,4 +138,17 @@ a {
         text-decoration: none;
         transition: 0.2s ease-in;  
         }
+    &:active {
+        text-decoration: none;
+        color: $primary;
+    }
+    
+    &:visited {
+        text-decoration: none;
+    }
+    
+    &:focus {
+        text-decoration: none;
+        color: $primary;
+    }
 }

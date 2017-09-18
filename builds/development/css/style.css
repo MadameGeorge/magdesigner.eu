@@ -6754,6 +6754,14 @@ a {
     opacity: 0.9;
     text-decoration: none;
     transition: 0.2s ease-in; }
+  a:active {
+    text-decoration: none;
+    color: #000000; }
+  a:visited {
+    text-decoration: none; }
+  a:focus {
+    text-decoration: none;
+    color: #000000; }
 
 .about-designer {
   background-color: white; }
@@ -6780,14 +6788,14 @@ a {
       margin-bottom: 0; }
     .portfolio__work--main:last-child {
       margin-bottom: 60px; }
-  .portfolio__more {
+  .portfolio__more, .portfolio__more--live-link {
     background: #50E3C2;
     text-align: center; }
-    .portfolio__more h4 {
+    .portfolio__more h4, .portfolio__more--live-link h4 {
       position: relative;
       text-align: center;
       margin-bottom: 30px; }
-    .portfolio__more h4:after {
+    .portfolio__more h4::after, .portfolio__more--live-link h4::after {
       content: "";
       position: absolute;
       background-color: #000000;
@@ -6797,6 +6805,8 @@ a {
       bottom: 3px;
       left: 50%;
       margin-left: -20px; }
+    .portfolio__more--live-link {
+      background: none; }
   .portfolio__links {
     text-align: center; }
   .portfolio .overlay {

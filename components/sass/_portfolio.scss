@@ -71,7 +71,7 @@
         margin-bottom: 30px;
         }
     
-        h4:after {
+        h4::after {
         content: "";
         position: absolute;
         background-color: $primary;
@@ -81,6 +81,11 @@
         bottom: 3px;
         left: 50%;
         margin-left: -20px;
+        }
+        
+        &--live-link {
+            background: none;
+            @extend .portfolio__more;
         }
     }
     
@@ -94,17 +99,17 @@
     }
     
     .overlay {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: auto;
-      width: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: auto;
+        width: auto;
         margin: 0 15px 0 15px;
-      opacity: 0;
-      transition: .5s ease;
-      background-color: $secondary;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: $secondary;
     }
     
     .text {
