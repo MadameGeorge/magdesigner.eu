@@ -1,1 +1,1 @@
-# Magdalena Powalisz Graphic Designer Portfolio Website
+# Magdalena Powalisz Product Designer Portfolio Website
